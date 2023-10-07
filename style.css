@@ -1,0 +1,89 @@
+body{
+    background-image: linear-gradient(red, white);
+
+}
+.numbertext{
+    margin-left: 500px;
+    margin-top: 200px;
+    font-size: 30px;
+    color: white;
+}
+.numbertext1{
+    margin-left: 500px;
+    margin-top: -44px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.mySlides img{
+    margin-left: 440px;
+    /* margin-top: 20px; */
+    height: 440px;
+    width: 400px;
+    color: white;
+}
+.text {
+    margin-left: 500px;
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;
+}
+.prev{
+    margin-left:600px;
+    margin-top: 20px;
+    color: black;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 260px;
+   
+}
+/* main */
+.main{
+    display: flex;
+ margin-top: 140px;
+}
+.login input{
+width: 380px;
+height: 34px;
+
+}
+.login1{
+    width: 520px;
+    height: 520px;
+background-color: #fff;
+border-radius: 10px;
+margin-top: -100px;
+}
+.login{
+    padding: 20px;
+    margin-left: 60px;
+    margin-top: 1px;
+}
+.login1 h2{
+    font-size: 40px;
+}
+.login1 p{
+    font-size: 20px;
+    color: rgb(199, 195, 195);
+}
+.login1 label{
+    color: rgb(188, 184, 184);
+}
+.btn button{
+    width: 390px;
+    height: 34px;
+    background-color: rgb(244, 157, 157);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+/* validations */
+.login_form #email_error,
+.login_form #pass_error{
+    margin-top: 2px;
+    width: 345px;
+    font-size: 18px;
+color: red;
+display: none;
+}
